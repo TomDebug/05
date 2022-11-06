@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt", 
     "build": "nuxt build",
-    "start": "node ./node_modules/nuxt/bin/nuxt.js start",
+    "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.0",
     "morgan": "^1.10.0",
-    "nuxt": "npm:nuxt2@latest"
+    "nuxt": "2.0.0"
   },
   "devDependencies": {
     "pug": "^3.0.0",

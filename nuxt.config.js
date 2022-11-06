@@ -1,9 +1,11 @@
 
+
 export default {
 
-
-
-ssr: true,
+  server:  {
+    port: process.env.PORT,
+    host: '0.0.0.0'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-mongodb-crud',
