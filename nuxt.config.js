@@ -1,6 +1,14 @@
+import { SplitArray } from "meshcommander/common";
+
 export default {
 
-  target: 'static',
+  server:  {
+    port: 8000,
+    host: '0.0.0.0',
+    timing: false
+  },
+
+  mode: 'spa',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-mongodb-crud',
