@@ -1,5 +1,4 @@
-import { SplitArray } from "meshcommander/common";
-
+import { defineNuxtConfig } from 'nuxt'
 export default {
 
 
