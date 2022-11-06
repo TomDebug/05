@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.0",
     "morgan": "^1.10.0",
-    "nuxt": "2.0.0"
+    "nuxt": "2.15.8"
   },
   "devDependencies": {
     "pug": "^3.0.0",
