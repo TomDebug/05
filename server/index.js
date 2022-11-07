@@ -7,4 +7,5 @@ async function start () {
   await nuxt.listen(process.env.PORT, process.env.HOST)
 }
 
+
 start()
