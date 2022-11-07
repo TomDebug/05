@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 module.exports = () => {
-  mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
+  mongoose.connect("mongodb+srv://thobesta:LTXzSXGmQXViEtu4@cluster0.ugbzbog.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
   mongoose.connection.on('open', () => {
     console.log('MongoDB : Connected successfully');
   })
